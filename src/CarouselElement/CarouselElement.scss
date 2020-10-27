@@ -1,0 +1,10 @@
+.CarouselElement{
+    &__container{
+        height:10em;
+        width:10em;
+        background-size: cover;
+        border-radius: 5px;
+        box-shadow: 20px 0 50px rgba(0,0,0,0.5);
+    }
+
+}
