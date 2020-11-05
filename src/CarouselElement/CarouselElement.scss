@@ -1,10 +1,27 @@
 .CarouselElement{
+
+    &__globalContainer{
+        display: flex;
+        flex-direction: column;
+        margin:0 0.5em;
+    }
+
     &__container{
         height:10em;
         width:10em;
+        height:10em;
         background-size: cover;
         border-radius: 5px;
-        box-shadow: 20px 0 50px rgba(0,0,0,0.5);
+        background-position: center;
     }
 
+    &__title{
+        font-weight: bold;
+        font-size: 1.1em;
+        margin:0.5em 0 0 0;
+    }
+
+    &__description{
+        font-size: 0.8em;
+    }
 }

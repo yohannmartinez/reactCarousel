@@ -1,9 +1,41 @@
 .Carousel{
-    &__container{
+
+    &__globalContainer{
+        margin:1em;
+        padding:0 2em;
+        border-radius: 5px;
+        box-shadow: 0 0 40px rgba(0,0,0,0.3);
+    }
+
+    &__navContainer{
+        padding:1em 0;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__nav{
+        display: flex;
+    }
+
+    &__leftnav, &__rightnav{
+        padding:0.5em 1em;
+        border:1px solid white;
+        margin:0 0.5em;
+        cursor: pointer;
+    }
+
+    &__carouselTitle{
+        font-weight: bold;
+    }
+
+    &__cardsContainer{
         display: flex;
         padding:2em;
         align-items: center;
-        justify-content: center;
+        justify-content: space-between;
         transition: 0.5s;
+        flex-wrap: wrap;
     }
+    
 }
